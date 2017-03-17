@@ -14,9 +14,9 @@ public class ThusharagiriActivity extends AppCompatActivity {
         setContentView(R.layout.list_view);
 
         ArrayList<ContentClass> datas = new ArrayList<ContentClass>();
-        String text1 ="";
+        String text1 =" Thusharagiri Falls is a waterfall in Chembukadavu Thusharagiri offers endless scope for trekking, rock climbing and wildlife sanctuary visits. It is around 50 kilometres (31 mi) from Kozhikode. The nearest town Kodencherry is around 11 kilometres (6.8 mi) from Thusharagiri. The other main towns situated here are Thiruvambady and Thamarassery.";
         datas.add(new ContentClass(text1, R.drawable.thusharagiri));
-        String text2 ="";
+        String text2 =" Thusharagiri offers endless scope for trekking, rock climbing and wild life sanctuary visits. It is around 50 kilometres (31 mi) from Kozhikode. The nearest town Kodancherry is around 11 kilometres (6.8 mi) from Thusharagiri. The other main towns situated here are Thiruvambady which is 18 km away and Thamarassery which is 17 km away. One has to purchase all necessary things for trekking from here.";
         datas.add(new ContentClass(text2));
 
         ContentAdapter adapter = new ContentAdapter(this, datas);
