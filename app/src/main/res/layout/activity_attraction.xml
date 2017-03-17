@@ -8,26 +8,46 @@
     tools:context="com.example.android.tourguide.AttractionActivity">
 
     <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:id="@+id/firstAttractionButton_id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="calicut beach" />
+        android:layout_height="72dp"
+        android:text="calicut beach"
+        android:textSize="24sp" />
 
     <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:id="@+id/secondAttractionButton_id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Thusharagiri falls" />
+        android:layout_height="72dp"
+        android:text="Thusharagiri falls"
+        android:textSize="24sp" />
 
     <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:id="@+id/thirdAttractionButton_id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="planetarium" />
+        android:layout_height="72dp"
+        android:text="planetarium"
+        android:textSize="24sp" />
 
     <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:id="@+id/fourthAttractionButton_id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="peruvannamoozhi dam" />
+        android:layout_height="72dp"
+        android:text="peruvannamoozhi dam"
+        android:textSize="24sp" />
 </LinearLayout>

@@ -11,7 +11,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 4;
-    private String tabTitles[] = new String[]{"Introduction", "Attractions", "Restaurants", "Trsnsportation"};
+    private String tabTitles[] = new String[]{"Introduction", "Attractions", "Restaurants", "Transport"};
     private Context context;
 
     public CategoryAdapter(FragmentManager i) {
@@ -22,14 +22,14 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return IntroductionFragment;
+            return new IntroductionFragment();
 
         } else if (position == 1) {
-            return AttractionFragment;
+            return new AttractionFragment();
         } else if (position == 2) {
-            return RestaurantFragment;
+            return new RestaurantFragment();
         } else {
-            return TransportationFragment;
+            return new TransportationFragment();
         }
     }
 

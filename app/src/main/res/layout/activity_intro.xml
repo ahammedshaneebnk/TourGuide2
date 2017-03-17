@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CALICUT"
-        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textSize="24sp"
         android:textColor="@android:color/black"
         android:padding="8dp"/>
     <TextView
@@ -18,7 +19,7 @@
         android:id="@+id/introTextId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"/>
+        android:textSize="20sp"/>
 
 
 
