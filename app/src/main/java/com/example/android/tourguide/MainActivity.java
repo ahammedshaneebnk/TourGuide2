@@ -26,7 +26,26 @@ public class MainActivity extends AppCompatActivity {
         attractionTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent attractionIntent =
+                Intent attractionIntent = new Intent(MainActivity.this, AttractionActivity.class);
+                startActivity(attractionIntent);
+            }
+        });
+
+        TextView restaurantTextView = (TextView) findViewById(R.id.restaurant_id);
+        restaurantTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent restaurantIntent = new Intent(MainActivity.this, RestaurantActivity.class);
+                startActivity(restaurantIntent);
+            }
+        });
+
+        TextView transportationTextView = (TextView) findViewById(R.id.transportation_id);
+        transportationTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent transportaionIntent = new Intent(MainActivity.this, TransportationActivity.class);
+                startActivity(transportaionIntent);
             }
         });
     }
