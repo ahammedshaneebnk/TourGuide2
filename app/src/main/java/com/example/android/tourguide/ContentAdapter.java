@@ -31,6 +31,7 @@ public class ContentAdapter extends ArrayAdapter<ContentClass> {
         ContentClass currentContent = getItem(position);
 
         TextView textData = (TextView) listItemView.findViewById(R.id.textId);
+        textData.setText(currentContent.getmTextData());
         ImageView imageData = (ImageView) listItemView.findViewById(R.id.imageId);
 
         if (currentContent.hasImage()) {
@@ -39,8 +40,6 @@ public class ContentAdapter extends ArrayAdapter<ContentClass> {
         } else {
             imageData.setVisibility(View.GONE);
         }
-
-
         return listItemView;
     }
 }

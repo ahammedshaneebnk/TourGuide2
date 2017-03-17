@@ -1,5 +1,6 @@
 package com.example.android.tourguide;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,7 +17,9 @@ public class IntroActivity extends AppCompatActivity {
         firstIntroButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.list_item);
+               // setContentView(R.layout.list_item);
+               Intent i = new Intent(IntroActivity.this,IntroButtonActivity.class);
+                startActivity(i);
             }
         });
     }

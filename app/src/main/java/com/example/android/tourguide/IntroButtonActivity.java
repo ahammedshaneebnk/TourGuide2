@@ -11,10 +11,12 @@ public class IntroButtonActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_item);
+        setContentView(R.layout.list_view);
 
-        final ArrayList <ContentClass> datas = new ArrayList<ContentClass>();
+        ArrayList <ContentClass> datas = new ArrayList<ContentClass>();
         datas.add(new ContentClass("Testing testing testing", R.drawable.beachh));
+        datas.add(new ContentClass("adfgjhjh"));
+
         ContentAdapter adapter = new ContentAdapter(this, datas);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
