@@ -9,22 +9,22 @@
     <TextView
         android:id="@+id/introduction_id"
         style="@style/category"
-        android:text="Hello World!" />
+        android:text="Introduction" />
 
     <TextView
         android:id="@+id/attraction_id"
         style="@style/category"
-        android:text="Hello World!" />
+        android:text="Attraction" />
 
     <TextView
         android:id="@+id/restaurant_id"
         style="@style/category"
-        android:text="Hello World!" />
+        android:text="Restaurants" />
 
     <TextView
         android:id="@+id/transportation_id"
         style="@style/category"
-        android:text="Hello World!" />
+        android:text="Transportation" />
 
 
 </LinearLayout>

@@ -12,7 +12,7 @@ public class AttractionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_attraction);
-        Button firstIntroButton = (Button) findViewById(R.id.firstIntroButton_id);
+        Button firstIntroButton = (Button) findViewById(R.id.firstAttractionButton_id);
         firstIntroButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

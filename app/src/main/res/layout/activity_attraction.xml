@@ -8,26 +8,26 @@
     tools:context="com.example.android.tourguide.AttractionActivity">
 
     <Button
-        android:id="@+id/firstIntroButton_id"
+        android:id="@+id/firstAttractionButton_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button1" />
+        android:text="calicut beach" />
 
     <Button
-        android:id="@+id/secondIntroButton_id"
+        android:id="@+id/secondAttractionButton_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button2" />
+        android:text="Thusharagiri falls" />
 
     <Button
-        android:id="@+id/thirdIntroButton_id"
+        android:id="@+id/thirdAttractionButton_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button3" />
+        android:text="planetarium" />
 
     <Button
-        android:id="@+id/fourthIntroButton_id"
+        android:id="@+id/fourthAttractionButton_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button4" />
+        android:text="peruvannamoozhi dam" />
 </LinearLayout>
