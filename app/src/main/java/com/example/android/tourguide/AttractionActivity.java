@@ -29,5 +29,23 @@ public class AttractionActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Button planetariumButton = (Button) findViewById(R.id.thirdAttractionButton_id);
+        planetariumButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent (AttractionActivity.this, PlanetariumActivity.class);
+                startActivity(i);
+            }
+        });
+
+        Button peruvannamozhiDamButton = (Button) findViewById(R.id.fourthAttractionButton_id);
+        peruvannamozhiDamButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent (AttractionActivity.this, PeruvannamozhiDamActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }

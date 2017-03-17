@@ -18,20 +18,22 @@
         </activity>
         <activity
             android:name=".IntroActivity"
-            android:label="Introduction"></activity>
+            android:label="Introduction" />
         <activity
             android:name=".AttractionActivity"
-            android:label="Attractions"></activity>
+            android:label="Attractions" />
         <activity
             android:name=".RestaurantActivity"
-            android:label="Restaurants"></activity>
+            android:label="Restaurants" />
         <activity
             android:name=".TransportationActivity"
-            android:label="Transportation"></activity>
+            android:label="Transportation" />
         <activity
             android:name=".BeachActivity"
-            android:label="Calicut Beach"></activity>
-        <activity android:name=".ThusharagiriActivity"></activity>
+            android:label="Calicut Beach" />
+        <activity android:name=".ThusharagiriActivity" />
+        <activity android:name=".PlanetariumActivity" />
+        <activity android:name=".PeruvannamozhiDamActivity"></activity>
     </application>
 
 </manifest>
