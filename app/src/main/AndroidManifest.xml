@@ -19,7 +19,8 @@
         <activity android:name=".IntroActivity" />
         <activity android:name=".AttractionActivity" />
         <activity android:name=".RestaurantActivity" />
-        <activity android:name=".TransportationActivity"></activity>
+        <activity android:name=".TransportationActivity" />
+        <activity android:name=".IntroButtonActivity"></activity>
     </application>
 
 </manifest>
