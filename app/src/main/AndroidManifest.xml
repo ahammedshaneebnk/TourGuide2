@@ -16,11 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IntroActivity" />
-        <activity android:name=".AttractionActivity" />
-        <activity android:name=".RestaurantActivity" />
-        <activity android:name=".TransportationActivity" />
-        <activity android:name=".IntroButtonActivity"></activity>
+        <activity
+            android:name=".IntroActivity"
+            android:label="Introduction"></activity>
+        <activity
+            android:name=".AttractionActivity"
+            android:label="Attractions"></activity>
+        <activity
+            android:name=".RestaurantActivity"
+            android:label="Restaurants"></activity>
+        <activity
+            android:name=".TransportationActivity"
+            android:label="Transportation"></activity>
+        <activity
+            android:name=".BeachActivity"
+            android:label="Calicut Beach"></activity>
+        <activity android:name=".ThusharagiriActivity"></activity>
     </application>
 
 </manifest>

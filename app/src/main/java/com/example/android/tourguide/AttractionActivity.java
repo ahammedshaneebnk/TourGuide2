@@ -16,7 +16,16 @@ public class AttractionActivity extends AppCompatActivity {
         firstIntroButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(AttractionActivity.this, IntroButtonActivity.class);
+                Intent i = new Intent(AttractionActivity.this, BeachActivity.class);
+                startActivity(i);
+            }
+        });
+
+        Button thusharagiriButton = (Button) findViewById(R.id.secondAttractionButton_id);
+        thusharagiriButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent (AttractionActivity.this, ThusharagiriActivity.class);
                 startActivity(i);
             }
         });

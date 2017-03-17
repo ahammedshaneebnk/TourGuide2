@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class IntroButtonActivity extends AppCompatActivity {
+public class BeachActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,8 +14,10 @@ public class IntroButtonActivity extends AppCompatActivity {
         setContentView(R.layout.list_view);
 
         ArrayList<ContentClass> datas = new ArrayList<ContentClass>();
-        datas.add(new ContentClass("Testing testing testing", R.drawable.beachh));
-        datas.add(new ContentClass("adfgjhjh"));
+        String text1 = "";
+        datas.add(new ContentClass(text1, R.drawable.beachh));
+        String text2 = "";
+        datas.add(new ContentClass(text2));
 
         ContentAdapter adapter = new ContentAdapter(this, datas);
         ListView listView = (ListView) findViewById(R.id.list);
