@@ -16,7 +16,7 @@ public class IntroActivity extends AppCompatActivity {
         firstIntroButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_intro_button);
+                setContentView(R.layout.list_item);
             }
         });
     }
