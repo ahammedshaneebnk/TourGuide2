@@ -18,22 +18,69 @@
         </activity>
         <activity
             android:name=".IntroActivity"
-            android:label="Introduction" />
+            android:label="Introduction"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
         <activity
             android:name=".AttractionActivity"
-            android:label="Attractions" />
+            android:label="Attractions"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".RestaurantActivity"
-            android:label="Restaurants" />
+            android:label="Restaurants"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".TransportationActivity"
-            android:label="Transportation" />
+            android:label="Transportation"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".BeachActivity"
-            android:label="Calicut Beach" />
-        <activity android:name=".ThusharagiriActivity" />
-        <activity android:name=".PlanetariumActivity" />
-        <activity android:name=".PeruvannamozhiDamActivity"></activity>
+            android:label="Calicut Beach"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ThusharagiriActivity"
+            android:label="Thusharagiri Falls"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PlanetariumActivity"
+            android:label="Planetarium"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PeruvannamozhiDamActivity"
+            android:label="Peruvannamozhi Dam"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
