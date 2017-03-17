@@ -21,5 +21,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(introIntent);
             }
         });
+
+        TextView attractionTextView = (TextView) findViewById(R.id.attraction_id);
+        attractionTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent attractionIntent =
+            }
+        });
     }
 }
