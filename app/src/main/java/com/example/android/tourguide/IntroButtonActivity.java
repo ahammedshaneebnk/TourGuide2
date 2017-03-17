@@ -13,7 +13,7 @@ public class IntroButtonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_view);
 
-        ArrayList <ContentClass> datas = new ArrayList<ContentClass>();
+        ArrayList<ContentClass> datas = new ArrayList<ContentClass>();
         datas.add(new ContentClass("Testing testing testing", R.drawable.beachh));
         datas.add(new ContentClass("adfgjhjh"));
 

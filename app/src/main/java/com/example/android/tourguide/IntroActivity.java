@@ -13,14 +13,6 @@ public class IntroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
-        Button firstIntroButton = (Button) findViewById(R.id.firstIntroButton_id);
-        firstIntroButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               // setContentView(R.layout.list_item);
-               Intent i = new Intent(IntroActivity.this,IntroButtonActivity.class);
-                startActivity(i);
-            }
-        });
+
     }
 }

@@ -6,25 +6,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context="com.example.android.tourguide.IntroActivity">
-    <Button
-        android:id="@+id/firstIntroButton_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button1"/>
-    <Button
-        android:id="@+id/secondIntroButton_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button2"/>
-    <Button
-        android:id="@+id/thirdIntroButton_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button3"/>
-    <Button
-        android:id="@+id/fourthIntroButton_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button4"/>
+
+
 
 </LinearLayout>

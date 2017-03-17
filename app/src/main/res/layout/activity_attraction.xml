@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.tourguide.AttractionActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/firstIntroButton_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button1" />
+
+    <Button
+        android:id="@+id/secondIntroButton_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button2" />
+
+    <Button
+        android:id="@+id/thirdIntroButton_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button3" />
+
+    <Button
+        android:id="@+id/fourthIntroButton_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button4" />
+</LinearLayout>

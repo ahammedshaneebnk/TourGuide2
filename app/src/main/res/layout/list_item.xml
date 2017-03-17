@@ -4,22 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.tourguide.IntroButtonActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context="com.example.android.tourguide.IntroButtonActivity">
 
     <TextView
         android:id="@+id/textId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="testing"
-        android:padding="8dp"/>
+        android:padding="8dp"
+        android:text="testing" />
 
     <ImageView
         android:id="@+id/imageId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:src="@drawable/beachh"
-        android:padding="8dp"/>
+        android:padding="8dp"
+        android:src="@drawable/beachh" />
 
 </LinearLayout>
