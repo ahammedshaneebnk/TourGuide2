@@ -31,7 +31,7 @@ public class AttractionFragment extends Fragment {
         thusharagiriButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent (getActivity(), ThusharagiriActivity.class);
+                Intent i = new Intent(getActivity(), ThusharagiriActivity.class);
                 startActivity(i);
             }
         });
@@ -40,7 +40,7 @@ public class AttractionFragment extends Fragment {
         planetariumButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent (getActivity(), PlanetariumActivity.class);
+                Intent i = new Intent(getActivity(), PlanetariumActivity.class);
                 startActivity(i);
             }
         });
@@ -49,7 +49,7 @@ public class AttractionFragment extends Fragment {
         peruvannamozhiDamButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent (getActivity(), PeruvannamozhiDamActivity.class);
+                Intent i = new Intent(getActivity(), PeruvannamozhiDamActivity.class);
                 startActivity(i);
             }
         });
