@@ -1,53 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.android.tourguide.AttractionActivity">
+    android:layout_height="match_parent">
 
-    <Button
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/firstAttractionButton_id"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:text="calicut beach"
-        android:textSize="24sp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.tourguide.AttractionActivity">
 
-    <Button
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/secondAttractionButton_id"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:text="Thusharagiri falls"
-        android:textSize="24sp" />
+        <Button
+            android:id="@+id/firstAttractionButton_id"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="8dp"
+            android:text="calicut beach"
+            android:textSize="18sp" />
 
-    <Button
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/thirdAttractionButton_id"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:text="planetarium"
-        android:textSize="24sp" />
+        <Button
+            android:id="@+id/secondAttractionButton_id"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="8dp"
+            android:text="Thusharagiri falls"
+            android:textSize="18sp" />
 
-    <Button
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/fourthAttractionButton_id"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:text="peruvannamoozhi dam"
-        android:textSize="24sp" />
-</LinearLayout>
+        <Button
+            android:id="@+id/thirdAttractionButton_id"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="8dp"
+            android:text="planetarium"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/fourthAttractionButton_id"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="8dp"
+            android:text="peruvannamoozhi dam"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
